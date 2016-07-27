@@ -1,4 +1,4 @@
-# Docker image: SBT + Chisel workspace
+# Handy Docker image: SBT + Chisel workspace
 
 ## Packages
 
@@ -13,6 +13,8 @@
 ```
 docker run -it --rm -v [Your SBT root directory]:/data muojp/sbt-chisel:latest
 ```
+
+This command launches sbt console. Then you can instantly (w/ super-little overhead) run `compile`, `~compile`, `test`, `run` or whatever sbt sub-commands you like.
 
 ## License
 
