@@ -31,8 +31,8 @@ RUN cd /opt \
  && rm -rf /opt/chisel3
 
 # Ensure compiler-interface being compiled
-ADD ../res/build.sbt /tmp/
-ADD ../res/t.scala /tmp/
+ADD res/build.sbt /tmp/
+ADD res/t.scala /tmp/
 RUN cd /tmp/ && sbt compile
 
 ENTRYPOINT cd /data/ && sbt

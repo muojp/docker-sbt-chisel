@@ -7,8 +7,8 @@ RUN echo "deb http://dl.bintray.com/sbt/debian /" | tee -a /etc/apt/sources.list
  && rm -rf /var/lib/apt/lists/*
 
 # Ensure compiler-interface being compiled
-ADD ../res/build.sbt /tmp/
-ADD ../res/t.scala /tmp/
+ADD res/build.sbt /tmp/
+ADD res/t.scala /tmp/
 RUN cd /tmp/ && sbt compile
 
 ENTRYPOINT cd /data/ && sbt
