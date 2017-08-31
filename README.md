@@ -2,7 +2,7 @@
 
 ## Packages
 
- - Ubuntu 14.04
+ - Ubuntu 16.04
  - OpenJDK 8
  - SBT 0.13.15
  - Scala 2.11.11
