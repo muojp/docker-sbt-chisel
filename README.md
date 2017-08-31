@@ -1,12 +1,13 @@
-# Handy Docker image: SBT + Chisel workspace
+# Handy Docker image: SBT + Chisel 3 workspace
 
 ## Packages
 
- - Ubuntu 14.04 based
- - OpenJDK 7
- - SBT 0.13.12
- - Scala 2.11.8
- - Chisel latest + ScalaTest 2.2.6
+ - Ubuntu 14.04
+ - OpenJDK 8
+ - SBT 0.13.15
+ - Scala 2.11.11
+ - Chisel3 latest + ScalaTest 2.2.6
+ - Verilator 3.886
 
 ## Usage
 
